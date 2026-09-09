@@ -1,0 +1,620 @@
+[
+  {
+    "chunk_id": 1,
+    "file_name": "devopsnots.pdf",
+    "page": 1,
+    "text": "UNIT-1 \n1.DevOps: \nDevOps is a software development approach in which development and operations teams \ncollaborate throughout the entire lifecycle of a system, from design and development to \ndeployment and maintenance. \nThe term DevOps is derived from: \n Development (Dev) \n Operations (Ops) \n踰踱踲踳 It combines processes, tools, and culture to enable faster and reliable software delivery. \n꾄 Need for DevOps (Why DevOps?) \nTraditionally: \n Developers aim for frequent changes \n Operations aim for system stability \n Testers aim for risk reduction \nThis leads to conﬂicts and delays. \n踰踱踲踳 DevOps solves this by: \n Improving communication and collaboration \n Enabling automation \n Ensuring"
+  },
+  {
+    "chunk_id": 2,
+    "file_name": "devopsnots.pdf",
+    "page": 1,
+    "text": "Ops solves this by: \n Improving communication and collaboration \n Enabling automation \n Ensuring continuous delivery \n Availability of cloud infrastructure \n꾄 Goals of DevOps \n Fast delivery of software \n Reduced failure rate \n Shorter lead time between ﬁxes \n Faster recovery (MTTR) \n Automation of processes \n Reduced operational cost \n Standardized environments \n Improved eƯiciency and proﬁt \n꾄 Beneﬁts of DevOps \n꾆 Technical Beneﬁts \n Continuous software delivery \n Reduced complexity \n Faster bug ﬁxing"
+  },
+  {
+    "chunk_id": 3,
+    "file_name": "devopsnots.pdf",
+    "page": 2,
+    "text": "꾆 Cultural Beneﬁts \n Improved team collaboration \n Increased productivity \n Better employee engagement \n꾆 Business Beneﬁts \n Faster product delivery \n Stable environment \n Improved customer satisfaction \n More innovation time \nPhases of DevOps Architecture \nDevOps architecture consists of the following stages: \n1. Plan \n Requirements are gathered and analyzed \n Project scope, cost, and schedule are deﬁned \n Tools: Jira \n2. Code \n Developers write the code based on requirements \n Project is divided into smaller modules \n Version control is maintained \n Tools: Git \n3. Build \n Source code is compiled into executable form \n All modules are integrated \n Tools: Maven, Gradle \n4."
+  },
+  {
+    "chunk_id": 4,
+    "file_name": "devopsnots.pdf",
+    "page": 2,
+    "text": "rce code is compiled into executable form \n All modules are integrated \n Tools: Maven, Gradle \n4. Test \n Software is tested to detect bugs \n Includes unit, integration, and performance testing \n Tools: Selenium, JUnit, PyTest \n5. Integrate \n New code is integrated with existing code \n Ensures smooth functioning of system \n Supports Continuous Integration (CI)"
+  },
+  {
+    "chunk_id": 5,
+    "file_name": "devopsnots.pdf",
+    "page": 3,
+    "text": "6. Deploy \n Application is deployed to production environment \n Ensures correct conﬁguration in all systems \n Tools: Docker, AWS \n7. Operate \n Application is used by end-users \n Maintenance and updates are performed \n Tools: Kubernetes, OpenShift \n8. Monitor \n System performance is continuously tracked \n Detects issues like server failure, low memory, etc. \n Tools: Nagios, ELK Stack \nImportant DevOps Tools \n1. Jenkins \n Used for Continuous Integration (CI) and Continuous Delivery \n Automates build and testing process \n Helps in detecting errors early \n2. Docker \n Used for containerization \n Packages application with all dependencies \n Ensures consistency across environments"
+  },
+  {
+    "chunk_id": 6,
+    "file_name": "devopsnots.pdf",
+    "page": 3,
+    "text": "erization \n Packages application with all dependencies \n Ensures consistency across environments \n3. Ansible \n Conﬁguration management tool \n Automates deployment and server setup \n Easy to use (agentless) \n4. Puppet \n Used for conﬁguration management \n Automates system administration tasks \n Ensures consistency across servers \n5. Nagios \n Monitoring tool \n Tracks system performance and server health \n Alerts when issues occur \n6. ELK Stack (Elasticsearch, Logstash, Kibana) \n Used for log management \n Collects and analyzes logs from diƯerent systems \n Helps in troubleshooting \n7. Monit \n Monitors system processes and services \n Performs automatic recovery"
+  },
+  {
+    "chunk_id": 7,
+    "file_name": "devopsnots.pdf",
+    "page": 3,
+    "text": "Monit \n Monitors system processes and services \n Performs automatic recovery"
+  },
+  {
+    "chunk_id": 8,
+    "file_name": "devopsnots.pdf",
+    "page": 4,
+    "text": "8. Consul \n Used for service discovery \n Helps in conﬁguration management \n9. Loggly \n Cloud-based log management tool \n Analyzes logs in real time \n10. God \n Monitoring tool for system processes \n Ensures applications run smoothly \nAdvantages of DevOps \n 띙띚띞띟띛띜띝 Faster software delivery \n 뱭뱮뱯뱰뱱뱲뱳뱴뱵뱶뱷뱸뱹 Better collaboration between teams \n 膆껎껏 Continuous updates \n 賑賒賓賔賕賖賗賝賘賙賚賛賜 Early bug detection \n 궧궨궩 Improved quality \n  High automation \n꾄 Disadvantages of DevOps \n  Requires skilled professionals \n 괭괮 High initial setup cost \n 껾껿꼀껽 Security challenges \n 꽎 Complex implementation \n \n2.Version Control System – Git and GitHub : \nA Version Control System (VCS) is software"
+  },
+  {
+    "chunk_id": 9,
+    "file_name": "devopsnots.pdf",
+    "page": 4,
+    "text": "entation \n \n2.Version Control System – Git and GitHub : \nA Version Control System (VCS) is software that helps developers track changes, \ncollaborate, and maintain the history of source code. \nFunctions: \n Allows multiple developers to work simultaneously \n Prevents overwriting of changes \n Maintains complete version history \n膆 2. Types of Version Control Systems : \n꾆 1. Local Version Control System (LVCS) \nDeﬁnition: \nStores ﬁles and versions only on a local system. \nExample: \n RCS (Revision Control System) \nAdvantages: \n Simple to use"
+  },
+  {
+    "chunk_id": 10,
+    "file_name": "devopsnots.pdf",
+    "page": 5,
+    "text": " Fast \nDisadvantages: \n No collaboration \n High risk of data loss \n 2. Centralized Version Control System (CVCS) \n Uses a central server to store ﬁles \n Example: SVN \nAdvantages: \n Easy to manage \n Centralized control \nDisadvantages: \n Single point of failure \n Requires internet \n꾆 3. Distributed Version Control System (DVCS) \n Each user has a complete copy of repository \n Example: Git \nAdvantages: \n Works oƯline \n Faster operations \n Backup available \nDisadvantages: \n Complex for beginners \n膆 3. Git \nGit is a distributed version control system developed by Linus Torvalds in 2005 for Linux \nkernel development. \n꾆 Features of Git: \n Free and open-source \n Tracks all changes"
+  },
+  {
+    "chunk_id": 11,
+    "file_name": "devopsnots.pdf",
+    "page": 5,
+    "text": "05 for Linux \nkernel development. \n꾆 Features of Git: \n Free and open-source \n Tracks all changes (add, modify, delete) \n Fast and scalable \n Supports branching and merging \n Works in distributed environment \n Secure using SHA-1 hashing \n꾆 Git Workﬂow: \n1. Working Directory → Modify ﬁles \n2. Staging Area (git add) → Prepare ﬁles \n3. Repository (git commit) → Save version \n✔ Files Types: \n Untracked ﬁles – Not added \n Tracked ﬁles – Added and monitored"
+  },
+  {
+    "chunk_id": 12,
+    "file_name": "devopsnots.pdf",
+    "page": 6,
+    "text": "꾆 Basic Git Commands: \n git init → Create repository \n git add → Add ﬁles to staging \n git status → Check status \n git commit -m → Save changes \n git log → View history \n꾆 Branching in Git: \n Used to create separate development paths \n Commands: \no git branch → Create branch \no git checkout → Switch branch \no git merge → Merge branches \n膆 4. Git Terminologies (Important Keywords – 2–3 Marks) \n Repository: Storage of project \n Working Directory: Where editing happens \n Staging Area: Temporary storage before commit \n Commit: Snapshot of changes \n Clone: Copy repository \n Pull: Get updates \n Push: Send updates \n HEAD: Points to latest commit \n Blob, Tree: Internal storage"
+  },
+  {
+    "chunk_id": 13,
+    "file_name": "devopsnots.pdf",
+    "page": 6,
+    "text": "Get updates \n Push: Send updates \n HEAD: Points to latest commit \n Blob, Tree: Internal storage objects \n꾆 Advantages of Git: \n Free and open-source \n High speed (local operations) \n Backup through multiple copies \n Strong security \n EƯicient branching \n꾆 Disadvantages of Git: \n Learning curve for beginners \n Merge conﬂicts \n Command-line complexity \n膆 5. GitHub (Web-Based Platform) \nGitHub is a web-based hosting service for Git repositories that enables collaboration and \nproject management. \n꾆 Features of GitHub: \n Code hosting \n Collaboration \n Issue & bug tracking"
+  },
+  {
+    "chunk_id": 14,
+    "file_name": "devopsnots.pdf",
+    "page": 7,
+    "text": " Pull requests (code review) \n Project & team management \n Wikis and discussions \n꾆 Beneﬁts of GitHub: \n Easy open-source contribution \n Tracks code changes \n Helps showcase projects \n Improves teamwork \n膆 6. GitHub Workﬂow (2 Marks) \n踰踱踲踳 Commit → Pull → Push \n Commit: Save changes locally \n Pull: Get latest updates from remote \n Push: Upload changes to GitHub \n膆 7. Remote Operations (Extra Scoring Point) \n git fetch → Check remote changes \n git merge → Combine branches \n git pull → Fetch + merge \n git push → Upload changes \nAdvantages of GitHub: \n Easy team collaboration \n Open-source support \n Tracks changes \n Project management tools \n꾆 Disadvantages of GitHub: \n"
+  },
+  {
+    "chunk_id": 15,
+    "file_name": "devopsnots.pdf",
+    "page": 7,
+    "text": " Open-source support \n Tracks changes \n Project management tools \n꾆 Disadvantages of GitHub: \n Requires internet \n Privacy concerns (public repos) \n Limited free private features (earlier limitation concept) \n \n3.Google Cloud Platform (GCP) \nGoogle Cloud Platform (GCP) is a suite of cloud computing services provided by Google \nthat allows users to store, manage, analyze data, and develop applications on Google’s \ninfrastructure. \nIt provides: \n Infrastructure as a Service (IaaS) \n Platform as a Service (PaaS) \n Serverless computing \n膆 2. Features of GCP (4–5 Marks) \n1. Powerful Tools & Services \no BigQuery (data analytics)"
+  },
+  {
+    "chunk_id": 16,
+    "file_name": "devopsnots.pdf",
+    "page": 7,
+    "text": "s & Services \no BigQuery (data analytics)"
+  },
+  {
+    "chunk_id": 17,
+    "file_name": "devopsnots.pdf",
+    "page": 8,
+    "text": "o Kubernetes (container management) \no AI & Machine Learning tools \n2. High Speed & Performance \no Global network with high-speed connectivity \n3. Cost EƯective \no Pay-as-you-go pricing \no Discounts for usage \n4. Security \no Multi-level security (network, OS, data) \n5. Global Infrastructure \no Data centers across the world \n膆 3. Services of GCP \n꾆 1. Compute Services \n Create virtual machines and run applications \n Examples: \no Compute Engine \no App Engine \no Kubernetes Engine \no Cloud Functions \n꾆 2. Networking Services \n Manage network and connectivity \nExamples: \n Virtual Private Cloud (VPC) \n Cloud DNS \n Load Balancing \n꾆 3. Storage Services \n Store and access data from anywhere"
+  },
+  {
+    "chunk_id": 18,
+    "file_name": "devopsnots.pdf",
+    "page": 8,
+    "text": "(VPC) \n Cloud DNS \n Load Balancing \n꾆 3. Storage Services \n Store and access data from anywhere \nExamples: \n Cloud Storage \n Cloud SQL \n BigTable \n꾆 4. Big Data Services \n Process and analyze large data \nExamples: \n BigQuery \n Dataﬂow \n Dataproc \n꾆 5. Cloud AI & Machine Learning \n Build intelligent applications"
+  },
+  {
+    "chunk_id": 19,
+    "file_name": "devopsnots.pdf",
+    "page": 9,
+    "text": "Examples: \n Machine Learning Engine \n AutoML \n膆 4. Advantages of GCP (2 Marks) \n High security and reliability \n Cost-eƯective (pay only for usage) \n Global accessibility \n Automatic backup and recovery \n No need for physical infrastructure \n 5. Disadvantages of GCP (1–2 Marks) \n Requires technical knowledge \n Cost management can be diƯicult \n Internet dependency \n Complex for beginners \n膆 6. Use Cases (1 Mark) \n Web and mobile app development \n Big data analytics \n AI and machine learning projects \n Cloud storage and backup \n \n4.Preparation for Developing a New Project in DevOps Platform \nDevOps project preparation involves planning, setting up tools, processes, and"
+  },
+  {
+    "chunk_id": 20,
+    "file_name": "devopsnots.pdf",
+    "page": 9,
+    "text": "in DevOps Platform \nDevOps project preparation involves planning, setting up tools, processes, and \ninfrastructure required to develop, test, deploy, and monitor applications eƯiciently using \nDevOps practices. \n膆 2. Key Preparatory Steps \n꾆 1. Requirement Analysis \n Understand project goals and user requirements \n Deﬁne functional and non-functional requirements \n Identify scope and timeline \n꾆 2. Version Control Setup \n Choose a version control system like Git \n Create repositories using GitHub \n Plan branching strategy \n꾆 3. Development Environment Setup \n Install required tools (IDE, compilers) \n Conﬁgure local development environment \n Ensure team uses consistent setup \n꾆 4."
+  },
+  {
+    "chunk_id": 21,
+    "file_name": "devopsnots.pdf",
+    "page": 9,
+    "text": "DE, compilers) \n Conﬁgure local development environment \n Ensure team uses consistent setup \n꾆 4. Continuous Integration (CI)"
+  },
+  {
+    "chunk_id": 22,
+    "file_name": "devopsnots.pdf",
+    "page": 10,
+    "text": " Set up CI tools (e.g., Jenkins) \n Automate code build and testing \n Integrate code frequently \n꾆 5. Continuous Delivery/Deployment (CD) \n Automate deployment pipeline \n Ensure code is always ready for release \n Use staging and production environments \n꾆 6. Infrastructure Setup \n Use cloud platforms like Google Cloud Platform \n Conﬁgure servers, storage, and networking \n Use Infrastructure as Code (IaC) \n꾆 7. Containerization \n Use tools like Docker \n Package application with dependencies \n Ensure consistency across environments \n꾆 8. Conﬁguration Management \n Use tools like Ansible, Puppet \n Automate system conﬁguration \n Maintain consistency \n꾆 9. Monitoring and Logging \n"
+  },
+  {
+    "chunk_id": 23,
+    "file_name": "devopsnots.pdf",
+    "page": 10,
+    "text": "ble, Puppet \n Automate system conﬁguration \n Maintain consistency \n꾆 9. Monitoring and Logging \n Monitor system performance \n Use tools like Nagios, Prometheus \n Track errors and logs \n꾆 10. Security Planning \n Implement authentication and authorization \n Secure code and infrastructure \n Perform vulnerability testing \n꾆 11. Collaboration and Communication \n Use tools like Slack, Jira \n Maintain proper documentation \n Ensure team coordination \n膆 3. Advantages of Proper Preparation (2 Marks) \n Faster development and deployment \n Reduced errors and failures \n Better collaboration \n High-quality software delivery \n 4. Challenges / Disadvantages (1 Mark) \n Initial setup"
+  },
+  {
+    "chunk_id": 24,
+    "file_name": "devopsnots.pdf",
+    "page": 10,
+    "text": "ration \n High-quality software delivery \n 4. Challenges / Disadvantages (1 Mark) \n Initial setup complexity \n Requires skilled team"
+  },
+  {
+    "chunk_id": 25,
+    "file_name": "devopsnots.pdf",
+    "page": 11,
+    "text": " Tool integration diƯiculty \n \n UNIT-2 \n1.Maven Lifecycle & Project Setup : \nMaven is a build automation and project management tool used to compile, test, \npackage, and deploy applications using a predeﬁned lifecycle. \n膆 2. Maven Build Lifecycle \nMaven lifecycle is a sequence of phases that must be followed to build a project. \n꾆 Main Phases: \n1. Validate \no Checks whether all required information is available \n2. Compile \no Compiles source code \n3. Test Compile \no Compiles test code \n4. Test \no Executes unit tests \n5. Package \no Packages code into JAR/WAR ﬁle \n6. Install \no Installs package into local repository \n7. Deploy \no Deploys package to remote repository \n꾆 Important Note: \n踰踱踲踳"
+  },
+  {
+    "chunk_id": 26,
+    "file_name": "devopsnots.pdf",
+    "page": 11,
+    "text": "e into local repository \n7. Deploy \no Deploys package to remote repository \n꾆 Important Note: \n踰踱踲踳 Phases are executed sequentially \n✔ Example: \nIf we run: \nmvn package \nIt executes: \nvalidate → compile → test → package \n꾆 Maven Goals: \n Each phase contains goals (tasks) \n Example goals: \no validate \no compile"
+  },
+  {
+    "chunk_id": 27,
+    "file_name": "devopsnots.pdf",
+    "page": 12,
+    "text": "o test \no package \no install \no deploy \n膆 3. How to Set Up a Project Using Maven \n꾆 Step 1: Install Maven \n Download Maven and install \n Verify: \nmvn -version \n꾆 Step 2: Create a Maven Project \nmvn archetype:generate \n踰踱踲踳 Creates structure: \nproject/ \n ├── src/main/java \n ├── src/test/java \n ├── pom.xml \n꾆 Step 3: Conﬁgure pom.xml \npom.xml is the heart of Maven project \nExample: \n<project> \n <groupId>com.example</groupId> \n <artifactId>demo</artifactId> \n <version>1.0</version> \n</project> \n踰踱踲踳 Add dependencies if needed \n꾆 Step 4: Build Using Lifecycle Commands \n Compile: \nmvn compile \n Test: \nmvn test \n Package: \nmvn package \n Install: \nmvn install \n꾆 Step 5: Example \nSuppose we"
+  },
+  {
+    "chunk_id": 28,
+    "file_name": "devopsnots.pdf",
+    "page": 12,
+    "text": " Test: \nmvn test \n Package: \nmvn package \n Install: \nmvn install \n꾆 Step 5: Example \nSuppose we create a Java project: \n1. Write code in src/main/java \n2. Add dependency in pom.xml \n3. Run:"
+  },
+  {
+    "chunk_id": 29,
+    "file_name": "devopsnots.pdf",
+    "page": 13,
+    "text": "mvn clean install \n踰踱踲踳 Output: \n Code compiled \n Tests executed \n JAR ﬁle created in target/ folder \n膆 4. Advantages of Maven (1–2 Marks) \n Automatic build process \n Easy dependency management \n Standard project structure \n Saves time \n 5. Disadvantages (1 Mark) \n Complex for beginners \n XML conﬁguration is lengthy \n \n2.Create and Build Maven Artifact \nApache Maven: \nA Maven Artifact is the output generated after building a Maven project, such as a JAR, \nWAR, or EAR ﬁle. \nIt is an element that a project can produce or use. \n膆 2. Maven Coordinates (3–4 Marks) \nArtifacts are identiﬁed using Maven Coordinates: \n groupId → Organization or project group \n artifactId → Project name"
+  },
+  {
+    "chunk_id": 30,
+    "file_name": "devopsnots.pdf",
+    "page": 13,
+    "text": "ed using Maven Coordinates: \n groupId → Organization or project group \n artifactId → Project name (used in ﬁle name) \n version → Version of project \n packaging → Type (jar, war, etc.) \n classiﬁer → Additional identiﬁer (optional) \n踰踱踲踳 These are deﬁned in the pom.xml ﬁle. \n꾆 Example: \n<project> \n <groupId>com.example</groupId> \n <artifactId>demo</artifactId> \n <version>1.0</version> \n <packaging>jar</packaging> \n</project> \n膆 3. Types of Artifacts (2 Marks) \n꾆 Release Artifact"
+  },
+  {
+    "chunk_id": 31,
+    "file_name": "devopsnots.pdf",
+    "page": 14,
+    "text": " Stable version \n Used in production \n꾆 Snapshot Artifact \n Under development \n Changes frequently \n Contains timestamp \n膆 4. Steps to Create Maven Artifact \n꾆 Step 1: Create Project (Command Line) \nmvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-maven-app -\nDarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false \n踰踱踲踳 Creates project structure: \nmy-maven-app/ \n ├── src/main/java \n ├── src/test/java \n ├── pom.xml \n꾆 Step 2: Create Project (Using IDE) \n Open Eclipse → New Maven Project \n Enter: \no groupId \no artifactId \n Project structure created automatically \n꾆 Step 3: Write Code \n Create package and class \n Example: \npublic class App {"
+  },
+  {
+    "chunk_id": 32,
+    "file_name": "devopsnots.pdf",
+    "page": 14,
+    "text": "d automatically \n꾆 Step 3: Write Code \n Create package and class \n Example: \npublic class App { \n public static void main(String[] args) { \n System.out.println(\"Welcome to Maven\"); \n } \n} \n꾆 Step 4: Conﬁgure pom.xml \n Deﬁne dependencies \n Add plugins if needed"
+  },
+  {
+    "chunk_id": 33,
+    "file_name": "devopsnots.pdf",
+    "page": 15,
+    "text": "膆 5. Build Maven Artifact \n꾆 Step 1: Run Build Command \nmvn package \n踰踱踲踳 Executes lifecycle: \nvalidate → compile → test → package \n꾆 Step 2: Output \n Artifact created in target/ folder \n Example: \ntarget/my-maven-app-1.0-SNAPSHOT.jar \n꾆 Step 3: Install Artifact \nmvn install \n踰踱踲踳 Stores artifact in local repository (.m2) \n꾆 Step 4: Deploy Artifact (Optional) \nmvn deploy \n踰踱踲踳 Uploads artifact to remote repository \n \n3.Installation of Gradle & Gradle Commands \nGradle is an open-source build automation tool used to automate tasks such as \ncompiling, testing, packaging, and deployment of software. \nIt uses Groovy DSL and overcomes limitations of Ant and Maven. \n膆 2. Features of Gradle (3"
+  },
+  {
+    "chunk_id": 34,
+    "file_name": "devopsnots.pdf",
+    "page": 15,
+    "text": "tware. \nIt uses Groovy DSL and overcomes limitations of Ant and Maven. \n膆 2. Features of Gradle (3 Marks) \n Free and open source \n High performance (incremental builds) \n Supports multi-project builds \n Compatible with Ant and Maven \n Provides strong IDE support \n Scalable for large projects \n膆 3. Prerequisites (1 Mark) \nBefore installing Gradle: \n Install Java JDK (8 or above) \n Verify: java -version"
+  },
+  {
+    "chunk_id": 35,
+    "file_name": "devopsnots.pdf",
+    "page": 16,
+    "text": "膆 4. Installation of Gradle (6 Marks) \n꾆 Step 1: Download Gradle \n Visit oƯicial Gradle website \n Download Binary-only distribution (ZIP ﬁle) \n꾆 Step 2: Extract Files \n Extract ZIP to a directory \nExample: C:\\gradle \n꾆 Step 3: Set Environment Variables \n Create variable: GRADLE_HOME = C:\\gradle \n Add to PATH: %GRADLE_HOME%\\bin \n꾆 Step 4: Verify Installation \ngradle -v \n踰踱踲踳 Displays Gradle version → Installation successful \n꾆 Step 5: Run Gradle Command \ngradle \n踰踱踲踳 Starts Gradle daemon and checks setup \n膆 5. Gradle Build Concepts \n Project → Application being developed \n Task → Unit of work (compile, test, jar) \n Build Script → build.gradle ﬁle containing build instructions \n踰踱踲踳"
+  },
+  {
+    "chunk_id": 36,
+    "file_name": "devopsnots.pdf",
+    "page": 16,
+    "text": "of work (compile, test, jar) \n Build Script → build.gradle ﬁle containing build instructions \n踰踱踲踳 Tasks are similar to Maven goals. \n膆 6. Gradle Commands: \n꾆 Initialize Project \ngradle init \n꾆 Build Project \ngradle build \n踰踱踲踳 Compiles, tests, packages \n꾆 Clean Project"
+  },
+  {
+    "chunk_id": 37,
+    "file_name": "devopsnots.pdf",
+    "page": 17,
+    "text": "gradle clean \n꾆 List Tasks \ngradle tasks \n꾆 Run Application \ngradle run \n꾆 Check Dependencies \ngradle dependencies \n꾆 Continuous Build \ngradle --continuous build \n膆 7. Advantages (1–2 Marks) \n Faster builds than Maven \n Flexible scripting (Groovy DSL) \n Incremental build support \n Supports multi-project builds \n 8. Disadvantages (1 Mark) \n Complex for beginners \n Requires scripting knowledge \n \n4.Understanding and Building a Project using Gradle \n Gradle Build Lifecycle : \nGradle build consists of three phases: \n1. Initialization Phase \no Identiﬁes project structure \n2. Conﬁguration Phase \no Reads build.gradle \no Conﬁgures tasks \n3. Execution Phase \no Executes selected tasks"
+  },
+  {
+    "chunk_id": 38,
+    "file_name": "devopsnots.pdf",
+    "page": 17,
+    "text": "tion Phase \no Reads build.gradle \no Conﬁgures tasks \n3. Execution Phase \no Executes selected tasks \nCreating a Gradle Project : \n꾆 Using Command Line \ngradle init \n踰踱踲踳 Select: \n Project type (application/library)"
+  },
+  {
+    "chunk_id": 39,
+    "file_name": "devopsnots.pdf",
+    "page": 18,
+    "text": " Language (Java, Groovy, etc.) \n Test framework (JUnit, TestNG) \n꾆 Project Structure \nproject/ \n ├── src/main/java \n ├── src/test/java \n ├── build.gradle \n ├── settings.gradle \n ├── gradle/ \n Understanding build.gradle : \nbuild.gradle is the main conﬁguration ﬁle. \n꾆 Contains: \n plugins → Add functionality \n repositories → Download dependencies \n dependencies → Required libraries \n꾆 Example: \nplugins { \n id 'application' \n} \nrepositories { \n mavenCentral() \n} \ndependencies { \n testImplementation 'junit:junit:4.12' \n} \napplication { \n mainClass = 'mypackage.App' \n} \nBuild Using Gradle : \n꾆 Step 1: Write Application Code \nExample: \npublic class App { \n public static void main(String[]"
+  },
+  {
+    "chunk_id": 40,
+    "file_name": "devopsnots.pdf",
+    "page": 18,
+    "text": "꾆 Step 1: Write Application Code \nExample: \npublic class App { \n public static void main(String[] args) { \n System.out.println(\"Welcome to Gradle\");"
+  },
+  {
+    "chunk_id": 41,
+    "file_name": "devopsnots.pdf",
+    "page": 19,
+    "text": "} \n} \n꾆 Step 2: List Tasks \ngradle tasks \n꾆 Step 3: Build Project \ngradle build \n踰踱踲踳 Performs: \n Compilation \n Testing \n Packaging \n꾆 Step 4: Run Application \ngradle run \n꾆 Step 5: Output \n Build output stored in: \nbuild/ \n踰踱踲踳 Example: \nbuild/libs/project-name.jar \nImportant Gradle Commands (2–3 Marks) \n gradle init → Create project \n gradle build → Build project \n gradle clean → Delete build ﬁles \n gradle tasks → List tasks \n gradle run → Execute application \n \n5.POM File in Maven \nApache Maven \nA POM (Project Object Model) ﬁle is an XML conﬁguration ﬁle (pom.xml) in Maven that \ncontains all the information required to build, manage, and conﬁgure a project. \nPurpose of POM File"
+  },
+  {
+    "chunk_id": 42,
+    "file_name": "devopsnots.pdf",
+    "page": 20,
+    "text": "The POM ﬁle is the heart of a Maven project. It is used to: \n Deﬁne project structure \n Manage dependencies \n Conﬁgure build process \n Specify plugins and goals \n Handle project versioning \nBasic Structure of POM File (4–5 Marks) \nExample: \n<project> \n <modelVersion>4.0.0</modelVersion> \n \n <groupId>com.example</groupId> \n <artifactId>demo</artifactId> \n <version>1.0</version> \n \n <dependencies> \n <dependency> \n <groupId>junit</groupId> \n <artifactId>junit</artifactId> \n <version>4.12</version> \n </dependency> \n </dependencies> \n</project> \nImportant Elements in POM \n꾆 1. modelVersion \n Deﬁnes POM model version (usually 4.0.0) \n꾆 2. groupId \n Unique ID of organization \n踰踱踲踳 Example:"
+  },
+  {
+    "chunk_id": 43,
+    "file_name": "devopsnots.pdf",
+    "page": 20,
+    "text": "Deﬁnes POM model version (usually 4.0.0) \n꾆 2. groupId \n Unique ID of organization \n踰踱踲踳 Example: com.company \n꾆 3. artifactId \n Name of project \n꾆 4. version \n Version of project (e.g., 1.0, SNAPSHOT) \n꾆 5. packaging \n Type of output \n踰踱踲踳 jar / war / ear \n꾆 6. dependencies"
+  },
+  {
+    "chunk_id": 44,
+    "file_name": "devopsnots.pdf",
+    "page": 21,
+    "text": " External libraries required \n꾆 7. build \n Build conﬁguration \n꾆 8. plugins \n Used to perform tasks like compile, test \n膆 5. Features of POM File (2 Marks) \n Centralized project conﬁguration \n Automatic dependency management \n Supports plugins and lifecycle \n Easy project maintenance \n 6. Disadvantages (1 Mark) \n XML syntax is lengthy \n DiƯicult for beginners \n \nUNIT-3 \n1.Jenkins – Installation and Conﬁguration \nJenkins is an open-source automation tool used for Continuous Integration (CI) and \nContinuous Delivery (CD). It is written in Java and helps automate the software development \nprocess such as build, test, package, and deployment. \nJenkins allows developers to integrate"
+  },
+  {
+    "chunk_id": 45,
+    "file_name": "devopsnots.pdf",
+    "page": 21,
+    "text": "ment \nprocess such as build, test, package, and deployment. \nJenkins allows developers to integrate code continuously and detect errors early, improving \nsoftware quality and reducing manual work. \n Features of Jenkins \n1. Easy Installation – Simple setup on Windows, Linux, and macOS. \n2. Easy Conﬁguration – Web-based user interface with built-in help. \n3. Open Source – Free and supported by a large community. \n4. Plugin Support – Thousands of plugins for integration (Git, Maven, Docker, etc.). \n5. Distributed Builds – Can run builds across multiple machines. \n Prerequisites \nBefore installing Jenkins: \n Install Java (JDK/JRE) (mandatory since Jenkins runs on Java) \n Installation of"
+  },
+  {
+    "chunk_id": 46,
+    "file_name": "devopsnots.pdf",
+    "page": 21,
+    "text": "talling Jenkins: \n Install Java (JDK/JRE) (mandatory since Jenkins runs on Java) \n Installation of Jenkins : \nStep 1: Download Jenkins \n Go to the oƯicial Jenkins website \n Download Jenkins for your OS (e.g., Windows .msi ﬁle) \nStep 2: Run Installer"
+  },
+  {
+    "chunk_id": 47,
+    "file_name": "devopsnots.pdf",
+    "page": 22,
+    "text": " Double-click the downloaded ﬁle \n Click Next in setup wizard \nStep 3: Choose Installation Location \n Select destination folder \n Click Next \nStep 4: Conﬁgure Service \n Select “Run service as LocalSystem” \n Choose default JDK path \n Click Install \nStep 5: Complete Installation \n Click Finish after installation completes \n Initial Conﬁguration of Jenkins: \nStep 1: Open Jenkins \n Open browser and type: \n踰踱踲踳 http://localhost:8080 \nStep 2: Unlock Jenkins \n Navigate to: \nC:\\ProgramData\\Jenkins\\secrets\\initialAdminPassword \n Copy password and paste in browser \nStep 3: Install Plugins \n Choose “Install Suggested Plugins” \n Jenkins installs required plugins automatically \nStep 4:"
+  },
+  {
+    "chunk_id": 48,
+    "file_name": "devopsnots.pdf",
+    "page": 22,
+    "text": "s \n Choose “Install Suggested Plugins” \n Jenkins installs required plugins automatically \nStep 4: Create Admin User \n Enter username, password, email \n Click Save and Continue \nStep 5: Instance Conﬁguration \n Conﬁrm default port (8080) \n Click Save and Finish"
+  },
+  {
+    "chunk_id": 49,
+    "file_name": "devopsnots.pdf",
+    "page": 23,
+    "text": "7. Jenkins Dashboard \n After setup, Jenkins dashboard appears \n From here you can: \no Create jobs/projects \no Conﬁgure builds \no Integrate tools like Git, Maven \no Monitor build status \nAdvantages \n Free and open-source tool \n Supports automation of build and testing \n Large plugin ecosystem \n Platform independent \n Improves software quality and productivity \nDisadvantages \n Requires maintenance and updates \n Needs technical knowledge (developer-centric) \n Conﬁguration changes may break builds \n \n2.Jenkins Architecture \nJenkins is an open-source automation tool that supports Continuous Integration (CI) and \nContinuous Delivery (CD). Its architecture is designed to automate"
+  },
+  {
+    "chunk_id": 50,
+    "file_name": "devopsnots.pdf",
+    "page": 23,
+    "text": "Continuous Integration (CI) and \nContinuous Delivery (CD). Its architecture is designed to automate building, testing, and \ndeploying software projects eƯiciently. \n Jenkins Workﬂow \nThe workﬂow of Jenkins can be summarized as: \n1. Developers commit code changes to the source code repository (e.g., GitHub). \n2. Jenkins continuously monitors the repository for changes. \n3. When changes are detected, Jenkins server triggers a new build. \n4. If the build fails, Jenkins immediately notiﬁes the developers. \n5. If the build succeeds, Jenkins deploys the build to a test server. \n6. The test server runs automated tests and generates feedback. \n7. Jenkins collects feedback and informs developers of"
+  },
+  {
+    "chunk_id": 51,
+    "file_name": "devopsnots.pdf",
+    "page": 23,
+    "text": "uns automated tests and generates feedback. \n7. Jenkins collects feedback and informs developers of the results. \n8. Once all tests pass, Jenkins deploys the build to the production server."
+  },
+  {
+    "chunk_id": 52,
+    "file_name": "devopsnots.pdf",
+    "page": 24,
+    "text": "This process is continuous, ensuring that code is always tested and integrated promptly. \n \nJenkins Architecture \nJenkins follows a distributed Master-Slave architecture, which allows it to scale builds \nacross multiple machines. Communication between Master and Slaves is via TCP/IP. \nComponents: \na) Jenkins Master \nThe Master is the central control unit of Jenkins. Its responsibilities include: \n Scheduling jobs and builds \n Assigning jobs to appropriate Slaves \n Dispatching builds to Slaves for execution \n Monitoring the status of all Slaves \n Retrieving build results from Slaves \n Displaying build and test results on the console \nb) Jenkins Slave (Node/Build Server) \nA Slave is a"
+  },
+  {
+    "chunk_id": 53,
+    "file_name": "devopsnots.pdf",
+    "page": 24,
+    "text": "isplaying build and test results on the console \nb) Jenkins Slave (Node/Build Server) \nA Slave is a remote machine that executes the jobs assigned by the Master. \n Slaves can run on any operating system (Windows, Linux, Mac) \n They perform the actual build, test, and deployment tasks \n Slaves report results back to the Master"
+  },
+  {
+    "chunk_id": 54,
+    "file_name": "devopsnots.pdf",
+    "page": 25,
+    "text": "Key Points \n Jenkins architecture allows distributed builds, improving eƯiciency. \n Supports continuous monitoring of source code repository. \n Master-Slave setup provides scalability for large projects. \n Compatible with multiple operating systems and platforms. \n Uses plugins to extend functionality for building, testing, and deploying applications. \nAdvantages of Jenkins Architecture \n1. EƯicient resource utilization with distributed builds \n2. Scalable to handle multiple projects and large teams \n3. Supports parallel execution on multiple Slaves \n4. Ensures fast feedback for developers \n Disadvantages \n Master is a single point of failure \n Requires maintenance and conﬁguration"
+  },
+  {
+    "chunk_id": 55,
+    "file_name": "devopsnots.pdf",
+    "page": 25,
+    "text": "rs \n Disadvantages \n Master is a single point of failure \n Requires maintenance and conﬁguration \n Complex setup for large environments \n \n3.Conﬁguring Jenkins with Java, Git, and Maven \nJenkins needs to be properly conﬁgured to integrate with development tools like Java, Git, \nand Maven to enable Continuous Integration (CI) and build automation. \n1. Prerequisites \nBefore conﬁguring Jenkins: \n1. Install Java (JDK 8 or higher) – Jenkins is a Java-based application. \no Verify with command: java -version \n2. Install Git – required for Jenkins to clone repositories. \no Verify with command: git --version \n3. Install Maven – for building Java projects."
+  },
+  {
+    "chunk_id": 56,
+    "file_name": "devopsnots.pdf",
+    "page": 25,
+    "text": "--version \n3. Install Maven – for building Java projects."
+  },
+  {
+    "chunk_id": 57,
+    "file_name": "devopsnots.pdf",
+    "page": 26,
+    "text": "o Verify with command: mvn -version \nConﬁguring Jenkins Tools: \na) Conﬁgure Java in Jenkins \n1. Open Jenkins dashboard → Click Manage Jenkins → Global Tool Conﬁguration. \n2. Scroll to JDK section → Click Add JDK. \n3. Give a name (e.g., JDK 17) → Check Install automatically or specify the path to \ninstalled JDK. \n4. Click Save. \nJenkins now knows which Java version to use for builds. \nb) Conﬁgure Git in Jenkins \n1. In Global Tool Conﬁguration, scroll to Git section → Click Add Git. \n2. Give a name (e.g., Git) → Specify the Git executable path or let Jenkins install \nautomatically. \n3. Click Save. \nJenkins can now clone repositories from GitHub or other Git servers. \nc) Conﬁgure Maven in"
+  },
+  {
+    "chunk_id": 58,
+    "file_name": "devopsnots.pdf",
+    "page": 26,
+    "text": "k Save. \nJenkins can now clone repositories from GitHub or other Git servers. \nc) Conﬁgure Maven in Jenkins \n1. In Global Tool Conﬁguration, scroll to Maven section → Click Add Maven. \n2. Give a name (e.g., Maven 3.9) → Select Install automatically or provide the path to \nMaven installation. \n3. Click Save. \nJenkins can now build Java projects using Maven goals (e.g., clean, compile, package). \nConﬁguring a Jenkins Job with Java, Git, and Maven: \n1. From Jenkins dashboard → Click New Item → Choose Freestyle Project or Maven \nProject. \n2. In Source Code Management, select Git → Enter repository URL and credentials. \n3. In Build Environment, select Use JDK → Choose conﬁgured JDK. \n4. In Build"
+  },
+  {
+    "chunk_id": 59,
+    "file_name": "devopsnots.pdf",
+    "page": 26,
+    "text": "URL and credentials. \n3. In Build Environment, select Use JDK → Choose conﬁgured JDK. \n4. In Build section, add Invoke top-level Maven targets → Specify Maven goals like: \nclean install \n5. Save and click Build Now. Jenkins will: \no Clone the repository from Git"
+  },
+  {
+    "chunk_id": 60,
+    "file_name": "devopsnots.pdf",
+    "page": 27,
+    "text": "o Use the speciﬁed JDK \no Build the project using Maven \n Beneﬁts of This Conﬁguration \n Automates Java project builds with Maven \n Fetches latest code from Git automatically \n Ensures consistent Java version across builds \n Supports Continuous Integration (CI) and fast feedback to developers \nDiagram (Simpliﬁed Exam Version): \nGit Repository → Jenkins (Master) \n │ \n Conﬁgured Tools: \n ┌───────────┐ \n │ JDK │ \n │ Maven │ \n │ Git │ \n └───────────┘ \n │ \n Build & Test \n │ \n Reports/Artifacts \n \n4.Creating a Jenkins Build and Jenkins Workspace \nJenkins automates software builds and manages workspaces where the build and test \nartifacts are stored. \n1. Jenkins Workspace \n Deﬁnition: \nA"
+  },
+  {
+    "chunk_id": 61,
+    "file_name": "devopsnots.pdf",
+    "page": 27,
+    "text": "s workspaces where the build and test \nartifacts are stored. \n1. Jenkins Workspace \n Deﬁnition: \nA Jenkins workspace is the directory on the Jenkins server where Jenkins stores ﬁles \nrelated to a speciﬁc project. \no It contains source code, build scripts, dependencies, and generated artifacts. \n Default Location: \nJENKINS_HOME/workspace/<ProjectName> \n Workspace Contents: \no Cloned repository ﬁles from Git"
+  },
+  {
+    "chunk_id": 62,
+    "file_name": "devopsnots.pdf",
+    "page": 28,
+    "text": "o Build outputs (e.g., .jar, .war) \no Test reports \no Temporary ﬁles during build \nBeneﬁts: \n Isolated environment for each project \n Keeps project builds organized \n Allows multiple builds to run simultaneously without conﬂicts \nCreating a Jenkins Build: \nStep 1: Create a New Job \n1. Open Jenkins Dashboard → Click New Item \n2. Enter project name (e.g., MyFirstBuild) \n3. Choose Freestyle Project or Maven Project → Click OK \nStep 2: Conﬁgure Source Code Repository \n1. Scroll to Source Code Management \n2. Select Git → Enter repository URL \n3. Add credentials if required \nStep 3: Conﬁgure Build Environment \n1. Choose the JDK to use \n2. Select Maven installation for Maven projects \n3."
+  },
+  {
+    "chunk_id": 63,
+    "file_name": "devopsnots.pdf",
+    "page": 28,
+    "text": "re Build Environment \n1. Choose the JDK to use \n2. Select Maven installation for Maven projects \n3. Optionally, add build environment options like cleaning workspace before build \nStep 4: Conﬁgure Build Steps \n1. Scroll to Build section → Click Add build step \n2. For Maven projects: Invoke top-level Maven targets → enter goals: \nclean install \n3. For freestyle projects: Execute shell or Windows batch command → enter \ncommands to build \nStep 5: Conﬁgure Post-build Actions \n Example: Archive artifacts → target/* .jar \n Example: Publish JUnit test results → **/target/sureﬁre-reports/* .xml"
+  },
+  {
+    "chunk_id": 64,
+    "file_name": "devopsnots.pdf",
+    "page": 29,
+    "text": "Step 6: Save and Build \n1. Click Save \n2. Click Build Now → Jenkins starts the build \n3. Check Build History → Click on build number → Console Output to see progress \nWorkﬂow Summary \nGit Repository \n │ \n ▼ \nJenkins Job (Build Conﬁguration) \n │ \n ▼ \nWorkspace: JENKINS_HOME/workspace/MyFirstBuild \n │ \n ├─ Source code ﬁles \n ├─ Build scripts \n ├─ Dependencies \n ├─ Artifacts (.jar/.war) \n └─ Test reports \n │ \n ▼ \nBuild Completion → Notiﬁcations / Artifacts archived \nKey Notes \n Each job has its own workspace \n Jenkins cleans workspace if conﬁgured before build to avoid conﬂicts \n Artifacts generated in the workspace can be archived for later deployment or testing \n Jenkins can execute"
+  },
+  {
+    "chunk_id": 65,
+    "file_name": "devopsnots.pdf",
+    "page": 29,
+    "text": "s generated in the workspace can be archived for later deployment or testing \n Jenkins can execute multiple builds in parallel using separate workspaces \nCommonly Used Jenkins Plugins: \nJenkins supports thousands of plugins that extend its functionality. Plugins help integrate \ntools, automate tasks, and enhance builds. Some of the most commonly used Jenkins \nplugins are: \n1. Git Plugin \n Purpose: Integrates Git repositories with Jenkins. \n Use: Enables Jenkins to pull source code from GitHub, GitLab, Bitbucket, or other Git \nrepositories automatically. \n Example: Every time a developer pushes code, Jenkins can automatically start a build."
+  },
+  {
+    "chunk_id": 66,
+    "file_name": "devopsnots.pdf",
+    "page": 29,
+    "text": "shes code, Jenkins can automatically start a build."
+  },
+  {
+    "chunk_id": 67,
+    "file_name": "devopsnots.pdf",
+    "page": 30,
+    "text": "2. Maven Integration Plugin \n Purpose: Supports building Maven projects in Jenkins. \n Use: Allows Jenkins to execute Maven goals like clean, install, package, etc. \n Example: Automates compiling Java projects and generating .jar or .war ﬁles. \n3. Gradle Plugin \n Purpose: Integrates Gradle builds with Jenkins. \n Use: Allows execution of Gradle tasks and build automation for Java, Groovy, or other \nGradle projects. \n Example: Run gradle build or gradle test automatically in Jenkins. \n4. Pipeline Plugin \n Purpose: Enables Jenkins Pipeline as Code. \n Use: Deﬁne build, test, and deployment workﬂows using a Jenkinsﬁle. \n Example: Automates Continuous Integration/Continuous Delivery"
+  },
+  {
+    "chunk_id": 68,
+    "file_name": "devopsnots.pdf",
+    "page": 30,
+    "text": "yment workﬂows using a Jenkinsﬁle. \n Example: Automates Continuous Integration/Continuous Delivery (CI/CD) pipelines. \n5. JUnit Plugin \n Purpose: Integrates JUnit test reports with Jenkins. \n Use: Displays unit test results in Jenkins after a build. \n Example: Shows the number of passed, failed, or skipped tests, helping track code \nquality. \n6. Email Extension Plugin \n Purpose: Sends email notiﬁcations based on build results. \n Use: Notify developers automatically when builds succeed, fail, or are unstable. \n Example: Developers receive an email when a build fails due to a failed test case. \n7. Slack Notiﬁcation Plugin \n Purpose: Sends build notiﬁcations to Slack channels. \n Use:"
+  },
+  {
+    "chunk_id": 69,
+    "file_name": "devopsnots.pdf",
+    "page": 30,
+    "text": "case. \n7. Slack Notiﬁcation Plugin \n Purpose: Sends build notiﬁcations to Slack channels. \n Use: Teams get real-time updates about build status without checking Jenkins \nmanually. \n8. Docker Plugin \n Purpose: Integrates Docker with Jenkins. \n Use: Build, test, and deploy applications in Docker containers automatically. \n Example: Run builds in isolated container environments to avoid dependency \nconﬂicts. \n9. Build Pipeline Plugin \n Purpose: Visualizes Jenkins jobs in a pipeline view. \n Use: Shows sequential and parallel jobs clearly for CI/CD processes. \n10. Credentials Plugin \n Purpose: Manages passwords, API keys, and SSH keys securely. \n Use: Used to connect Jenkins with Git,"
+  },
+  {
+    "chunk_id": 70,
+    "file_name": "devopsnots.pdf",
+    "page": 30,
+    "text": "pose: Manages passwords, API keys, and SSH keys securely. \n Use: Used to connect Jenkins with Git, Docker, or cloud services without exposing \nsecrets. \nSummary Table"
+  },
+  {
+    "chunk_id": 71,
+    "file_name": "devopsnots.pdf",
+    "page": 31,
+    "text": "Plugin Purpose Example Use \nGit Plugin Integrate Git repositories Auto-build on code commit \nMaven Plugin Build Maven projects mvn clean install \nGradle Plugin Build Gradle projects gradle build \nPipeline Plugin Automate CI/CD pipelines Jenkinsﬁle workﬂows \nJUnit Plugin Display test results Show passed/failed tests \nEmail Extension Send email notiﬁcations Alert devs on failed builds \nSlack Notiﬁcation Real-time Slack updates Notify team about build status \nDocker Plugin Docker integration Run builds in containers \nBuild Pipeline Visualize job ﬂow Sequential/parallel job view \nCredentials Plugin Secure credentials Store Git or cloud API keys \nJenkins Plugins Architecture Diagram:"
+  },
+  {
+    "chunk_id": 72,
+    "file_name": "devopsnots.pdf",
+    "page": 31,
+    "text": "als Plugin Secure credentials Store Git or cloud API keys \nJenkins Plugins Architecture Diagram: \n \nExplanation (Write This Below Diagram) \n Developer pushes code to Git \nrepository → handled by Git Plugin \n Jenkins pulls code and triggers build \n Build is executed using: \no Maven Plugin or \no Gradle Plugin \n Pipeline Plugin manages the CI/CD \nworkﬂow \n JUnit Plugin displays test results \n Docker Plugin helps in container-\nbased builds \n Email/Slack Plugins send \nnotiﬁcations to developers \n \n Developer \n │ \n ▼ \n Git Repository (Git Plugin) \n │ \n ▼ \n ┌───────────────┐ \n │ Jenkins Server │ \n └───────────────┘ \n │ \n ┌────────────────────────────────────────────────┐ \n ▼ ▼ ▼ \nMaven"
+  },
+  {
+    "chunk_id": 73,
+    "file_name": "devopsnots.pdf",
+    "page": 31,
+    "text": "erver │ \n └───────────────┘ \n │ \n ┌────────────────────────────────────────────────┐ \n ▼ ▼ ▼ \nMaven Plugin Gradle Plugin Pipeline Plugin \n(Build) (Build) (Workﬂow) \n │ │ │ \n └──────────────────────────────────────────────────┘ \n ▼ \n Build Process \n │ \n ┌────────────────────────────────────────────────┐ \n ▼ ▼ \nJUnit Plugin Docker Plugin \n(Test Results) (Container Build) \n └────────────────────────────────────────────────────┘ \n ▼ \n Notiﬁcations \n (Email / Slack Plugin) \n │ \n ▼ \n Developers"
+  },
+  {
+    "chunk_id": 74,
+    "file_name": "devopsnots.pdf",
+    "page": 32,
+    "text": "UNIT-4 \nAnsible Master–Slave Conﬁguration & Conﬁguration Management \nAnsible is an open-source automation tool used for conﬁguration management, \napplication deployment, and orchestration. \nIt is agentless, meaning no software is required on client machines. \n2. Ansible Architecture (Master–Slave Model) \nAnsible follows a Master–Slave architecture, but unlike other tools, it is agentless. \nComponents: \n1) Ansible Master (Control Node) \n The central system where Ansible is installed \n Executes commands and playbooks \n Manages inventory (list of hosts) \n Connects to nodes using SSH (Linux) or WinRM (Windows) \n2) Ansible Nodes (Managed Nodes / Slaves) \n Remote systems managed by Ansible"
+  },
+  {
+    "chunk_id": 75,
+    "file_name": "devopsnots.pdf",
+    "page": 32,
+    "text": "or WinRM (Windows) \n2) Ansible Nodes (Managed Nodes / Slaves) \n Remote systems managed by Ansible \n No agent required \n Execute tasks sent by master \nArchitecture Diagram : \n \nCommunication: \n Uses SSH protocol (secure and simple) \n No need for additional software on nodes"
+  },
+  {
+    "chunk_id": 76,
+    "file_name": "devopsnots.pdf",
+    "page": 33,
+    "text": "How Ansible Supports Conﬁguration Management \nConﬁguration Management means maintaining system settings and consistency across \nservers. \nKey Features: \n1) Playbooks \n Written in YAML format \n Deﬁne tasks to conﬁgure systems \n Example: install software, start services \n2) Idempotency \n Ensures tasks run only if needed \n Avoids duplicate changes \n Example: package installs only if not already installed \n3) Inventory Management \n Stores list of servers (hosts) \n Can be static or dynamic \n4) Modules \n Predeﬁned tools used to perform tasks \n Examples: \no yum / apt → install packages \no service → manage services \no copy → transfer ﬁles \n5) Roles \n Organize playbooks into reusable"
+  },
+  {
+    "chunk_id": 77,
+    "file_name": "devopsnots.pdf",
+    "page": 33,
+    "text": "o service → manage services \no copy → transfer ﬁles \n5) Roles \n Organize playbooks into reusable components \n Helps manage large projects \nWorking of Ansible (Flow) \n1. Admin writes a playbook \n2. Deﬁnes hosts in inventory ﬁle \n3. Runs playbook from master \n4. Master connects to nodes via SSH \n5. Tasks are executed on nodes \n6. Results are returned to master \nAdvantages of Ansible \n Agentless (no installation on nodes) \n Simple YAML syntax \n Fast and lightweight \n Easy to learn and use \n Scalable for large environments \n Disadvantages of Ansible \n Slower for very large-scale operations"
+  },
+  {
+    "chunk_id": 78,
+    "file_name": "devopsnots.pdf",
+    "page": 34,
+    "text": " Requires SSH connectivity \n Limited GUI (mostly command-line based) \n Debugging complex playbooks can be diƯicult \n \n2.Ad-hoc Commands in Ansible \nAd-hoc commands in Ansible are Command Line Interface (CLI) commands used to \nperform simple, quick and one-time tasks on managed nodes. \nThey are mainly used for: \n Immediate operations \n Testing connectivity \n Performing small administrative tasks \n踰踱踲踳 These commands are not reusable, unlike playbooks. \nSyntax of Ad-hoc Commands: \nansible <hosts> -m <module> -a \"<arguments>\" [-u username] [-b] \nExplanation: \n <hosts> → Target hosts or group \n -m → Module name \n -a → Arguments for module \n -u → Username \n -b → Become (run as root"
+  },
+  {
+    "chunk_id": 79,
+    "file_name": "devopsnots.pdf",
+    "page": 34,
+    "text": "group \n -m → Module name \n -a → Arguments for module \n -u → Username \n -b → Become (run as root user) \nCommon Ad-hoc Commands (Examples): \n꾅 1) Test connection (Ping) \nansible all -m ping \n✔ Checks connectivity between control node and all managed nodes \n꾅 2) List ﬁles in hosts \nansible dev -a \"ls\" \n✔ Displays ﬁles in all hosts under group dev \n꾅 3) Check server uptime \nansible dev -m shell -a \"uptime\" \n✔ Shows how long servers are running"
+  },
+  {
+    "chunk_id": 80,
+    "file_name": "devopsnots.pdf",
+    "page": 35,
+    "text": "꾅 4) Check memory usage \nansible dev -a \"free -m\" \n✔ Displays memory usage of all hosts \n꾅 5) Get system memory details \nansible dev -m shell -a \"cat /proc/meminfo | head -2\" \n✔ Shows total and free memory \n꾅 6) Copy ﬁle to all nodes \nansible dev -m copy -a \"src=test_ﬁle.txt dest=~/test_ﬁle.txt\" \n✔ Transfers ﬁle to all hosts \n꾅 7) Create directory (as root) \nansible dev -b -m ﬁle -a \"path=/var/tmp/mydir state=directory\" \n✔ Creates directory on all nodes \n꾅 8) Install package \nansible all -b -m yum -a \"name=ntp state=present\" \n✔ Installs package on all nodes \n꾅 9) Manage services \nStart service: \nansible dev -m service -a \"name=ntp state=started\" \nRestart service: \nansible dev -m service -a"
+  },
+  {
+    "chunk_id": 81,
+    "file_name": "devopsnots.pdf",
+    "page": 35,
+    "text": "e: \nansible dev -m service -a \"name=ntp state=started\" \nRestart service: \nansible dev -m service -a \"name=ntp state=restarted\" \nStop service: \nansible dev -m service -a \"name=ntp state=stopped\" \n꾅 10) Gather system facts \nansible dev -m setup \n✔ Displays detailed system information \n꾅 11) Reboot all servers \nansible dev -a \"/sbin/reboot\" \n✔ Restarts all nodes"
+  },
+  {
+    "chunk_id": 82,
+    "file_name": "devopsnots.pdf",
+    "page": 36,
+    "text": "Features of Ad-hoc Commands \n Fast execution \n Simple CLI-based usage \n No need for playbooks \n Uses Ansible modules \n Ideal for quick operations \nAdvantages \n Easy and quick to use \n Saves time for small tasks \n Useful for testing and troubleshooting \n No extra setup required \nDisadvantages \n Not reusable \n Not suitable for complex automation \n Hard to manage large tasks \n No structured workﬂow like playbooks \n \n3.Ansible Playbooks and Ansible Roles \n(i) Ansible Playbooks \nAn Ansible Playbook is a YAML ﬁle that contains a set of instructions used to automate tasks \non remote systems. \nIt acts like a to-do list for conﬁguration management, deployment, and automation. \nStructure"
+  },
+  {
+    "chunk_id": 83,
+    "file_name": "devopsnots.pdf",
+    "page": 36,
+    "text": "ems. \nIt acts like a to-do list for conﬁguration management, deployment, and automation. \nStructure of a Playbook \nA playbook contains the following elements: \n Hosts → Target systems where tasks are executed \n Play → Collection of tasks \n Tasks → Individual actions to perform \n Modules → Predeﬁned functions used in tasks \n Variables / Handlers (optional) \nBasic Example Playbook \n--- \n- name: Install Apache Server \n hosts: dev \n become: yes \n connection: ssh"
+  },
+  {
+    "chunk_id": 84,
+    "file_name": "devopsnots.pdf",
+    "page": 37,
+    "text": "tasks: \n - name: Install httpd \n yum: \n name: httpd \n state: present \n \n - name: Start httpd service \n service: \n name: httpd \n state: started \nWorking of Playbook \n1. User writes playbook in YAML \n2. Deﬁnes hosts in inventory ﬁle \n3. Runs using: ansible-playbook ﬁle.yml \n4. Control node connects via SSH \n5. Tasks executed on managed nodes \n6. Output/result displayed \nFeatures of Playbooks \n Human-readable (YAML format) \n Reusable and scalable \n Supports multiple tasks \n Uses modules for automation \nAdvantages \n Easy to understand and write \n Reusable automation scripts \n Ensures consistency across systems \n Supports large-scale automation \n꾅 Disadvantages \n Debugging can be"
+  },
+  {
+    "chunk_id": 85,
+    "file_name": "devopsnots.pdf",
+    "page": 37,
+    "text": "consistency across systems \n Supports large-scale automation \n꾅 Disadvantages \n Debugging can be diƯicult \n Requires proper YAML syntax \n Slightly slower than ad-hoc commands \n \n(ii) Ansible Roles \nAnsible Roles are used to organize and modularize playbooks by splitting them into \nreusable components. \nRoles help manage large and complex projects eƯiciently."
+  },
+  {
+    "chunk_id": 86,
+    "file_name": "devopsnots.pdf",
+    "page": 38,
+    "text": "Need for Roles \n Playbooks become large and complex \n DiƯicult to maintain \n Roles provide clean structure and reusability \nStructure of a Role \nroles/ \n └── myrole/ \n ├── tasks/ \n │ └── main.yml \n ├── handlers/ \n │ └── minimal \n ├── ﬁles/ \n ├── templates/ \n ├── vars/ \n ├── defaults/ \n └── meta/ \nComponents of Roles \n tasks/ → Main list of tasks \n handlers/ → Triggered actions (e.g., restart service) \n ﬁles/ → Static ﬁles to copy \n templates/ → Dynamic ﬁles \n vars/ → Variables \n defaults/ → Default values \nExample Role Usage \n--- \n- hosts: dev \n become: yes \n roles: \n - webserver \nBeneﬁts of Roles \n Reusability → Use in multiple projects \n Modularity → Organized structure \n"
+  },
+  {
+    "chunk_id": 87,
+    "file_name": "devopsnots.pdf",
+    "page": 38,
+    "text": "Beneﬁts of Roles \n Reusability → Use in multiple projects \n Modularity → Organized structure \n Maintainability → Easy to update \n Scalability → Suitable for large systems \n Consistency → Standard conﬁguration \nAdvantages \n Improves code organization"
+  },
+  {
+    "chunk_id": 88,
+    "file_name": "devopsnots.pdf",
+    "page": 39,
+    "text": " Reusable across projects \n Reduces duplication \n Easier collaboration \n꾅 Disadvantages \n Initial setup is complex \n Requires understanding of structure \n Overhead for small projects \nDiƯerence Between Playbooks and Roles \nPlaybooks Roles \nDeﬁne tasks directly Organize tasks into modules \nSimple automation Complex automation \nLess reusable Highly reusable \nFlat structure Structured directory \n \n Unit-5 \n1.Create GitHub Account and Repository \nCreating a GitHub Account: \nStep 1: Open Website \n Go to: https://github.com \nStep 2: Sign Up \n Click on Sign up \nStep 3: Enter Details \n Enter: \no Username \no Email address \no Password \nStep 4: Verify Account \n Complete CAPTCHA veriﬁcation"
+  },
+  {
+    "chunk_id": 89,
+    "file_name": "devopsnots.pdf",
+    "page": 39,
+    "text": ": \no Username \no Email address \no Password \nStep 4: Verify Account \n Complete CAPTCHA veriﬁcation \n Verify email using OTP/link \nStep 5: Choose Plan"
+  },
+  {
+    "chunk_id": 90,
+    "file_name": "devopsnots.pdf",
+    "page": 40,
+    "text": " Select Free plan \nStep 6: Complete Setup \n Answer optional questions \n Click Finish setup \n踰踱踲踳 Now your GitHub account is created successfully. \n \nCreating a GitHub Repository: \nStep 1: Login \n Login to your GitHub account \nStep 2: Create New Repository \n Click “+” icon (top right) \n Select New repository \nStep 3: Enter Repository Details \n Repository Name (e.g., my-project) \n Description (optional) \nStep 4: Choose Visibility \n Public → Anyone can see \n Private → Only you can access \nStep 5: Initialize Repository \n(Optional but recommended) \n Add README ﬁle \n Add .gitignore \n Choose license \nStep 6: Create Repository \n Click Create repository \n踰踱踲踳 Repository is successfully"
+  },
+  {
+    "chunk_id": 91,
+    "file_name": "devopsnots.pdf",
+    "page": 40,
+    "text": "oose license \nStep 6: Create Repository \n Click Create repository \n踰踱踲踳 Repository is successfully created. \n \nAdding Files to Repository (Optional Steps): \nUsing Git Commands"
+  },
+  {
+    "chunk_id": 92,
+    "file_name": "devopsnots.pdf",
+    "page": 41,
+    "text": "git init \ngit add . \ngit commit -m \"Initial commit\" \ngit branch -M main \ngit remote add origin <repository URL> \ngit push -u origin main \nAdvantages of GitHub \n1. Version Control \no Tracks changes in code easily \n2. Collaboration \no Multiple developers can work together \n3. Cloud Storage \no Code is stored online and accessible anywhere \n4. Backup & Security \no Prevents data loss \n5. Integration with DevOps Tools \no Works with tools like Jenkins, CI/CD pipelines \n4. Disadvantages of GitHub \n1. Requires Internet \no Cannot access repositories oƯline \n2. Learning Curve \no Beginners may ﬁnd Git commands diƯicult \n3. Security Risk (Public Repos) \no Code is visible to others if public \n4. Limited"
+  },
+  {
+    "chunk_id": 93,
+    "file_name": "devopsnots.pdf",
+    "page": 41,
+    "text": "mmands diƯicult \n3. Security Risk (Public Repos) \no Code is visible to others if public \n4. Limited Free Private Features (earlier) \no Some advanced features require paid plans \n \n2.Create Azure DevOps Organization \nAzure DevOps is a cloud-based platform provided by Microsoft to support the Software \nDevelopment Life Cycle (SDLC). \nIt helps in planning, developing, testing, and deploying applications. \nAn Azure DevOps Organization is a container that holds multiple projects, repositories, \npipelines, and users. \nComponents of Azure DevOps \n Azure Boards → Work tracking and project management \n Azure Repos → Source code version control \n Azure Pipelines → CI/CD automation \n Azure Test"
+  },
+  {
+    "chunk_id": 94,
+    "file_name": "devopsnots.pdf",
+    "page": 41,
+    "text": "nt \n Azure Repos → Source code version control \n Azure Pipelines → CI/CD automation \n Azure Test Plans → Testing and feedback"
+  },
+  {
+    "chunk_id": 95,
+    "file_name": "devopsnots.pdf",
+    "page": 42,
+    "text": " Azure Artifacts → Package management \nSteps to Create Azure DevOps Organization: \nStep 1: Sign in \n Go to Azure DevOps portal \n Login using Microsoft account \nStep 2: Create New Organization \n Click on “New Organization” \nStep 3: Enter Organization Details \n Provide: \no Organization name (unique) \n Click Continue \nStep 4: Processing \n System will process and create the organization \nStep 5: Organization Created \n A URL will be generated: https://dev.azure.com/<organization-name> \nStep 6: Create a Project \n Enter: \no Project name \no Visibility: \n Public \n Private (recommended for learning) \n Click Create Project \nStep 7: Start Using Services \nAfter creation, you can use: \n"
+  },
+  {
+    "chunk_id": 96,
+    "file_name": "devopsnots.pdf",
+    "page": 42,
+    "text": "or learning) \n Click Create Project \nStep 7: Start Using Services \nAfter creation, you can use: \n Repositories \n Pipelines \n Boards \n Test plans \nAdvantages of Azure DevOps Organization"
+  },
+  {
+    "chunk_id": 97,
+    "file_name": "devopsnots.pdf",
+    "page": 43,
+    "text": "1. Centralized Management \no Manage multiple projects in one place \n2. Supports Full SDLC \no Covers planning to deployment \n3. Integration \no Works with Git, CI/CD tools \n4. Scalable \no Suitable for small to large teams \n5. Security \no Role-based access control \nDisadvantages of Azure DevOps Organization \n1. Complex for Beginners \no Requires learning and setup \n2. Cost \no Advanced features are paid \n3. Internet Dependency \no Requires continuous internet access \n \n3.Create Azure Pipeline and Modify azure-pipelines.yml \nAzure Pipeline is a CI/CD (Continuous Integration & Continuous Delivery) tool in Azure \nDevOps used to automatically build, test, and deploy applications. \n Eliminates manual"
+  },
+  {
+    "chunk_id": 98,
+    "file_name": "devopsnots.pdf",
+    "page": 43,
+    "text": "l in Azure \nDevOps used to automatically build, test, and deploy applications. \n Eliminates manual work \n Supports multiple languages (Java, Python, Node.js, etc.) \n Works with GitHub or Azure Repos \n Executes tasks automatically on code changes \nSteps to Create Azure Pipeline: \nStep 1: Create Project in Azure DevOps \n Login to Azure DevOps \n Click New Project \n Enter project name \n Select visibility (Public/Private) \n Click Create \nStep 2: Import GitHub Repository \n Go to Repos → Import Repository \n Copy GitHub repository URL"
+  },
+  {
+    "chunk_id": 99,
+    "file_name": "devopsnots.pdf",
+    "page": 44,
+    "text": " Paste and click Import \nStep 3: Create Pipeline \n Go to Pipelines → Create Pipeline \n Select repository (GitHub/Azure Repos) \n Choose conﬁguration: \no Example: Maven Project (Java Web App) \n Select Azure subscription \n Click Create \nStep 4: Select Web App Service \n Choose existing Azure Web App \n Click Validate and Conﬁgure \n Azure automatically generates YAML ﬁle \nStep 5: Save and Run Pipeline \n Click Save and Run \n Pipeline starts execution \n3. Azure Pipeline Stages \nPipeline mainly has two stages: \n1) Build Stage \n Compile source code \n Run tests \n Package application (JAR/WAR) \n2) Deploy Stage \n Deploy application to Azure Web App \n Makes application live \n4."
+  },
+  {
+    "chunk_id": 100,
+    "file_name": "devopsnots.pdf",
+    "page": 44,
+    "text": "ion (JAR/WAR) \n2) Deploy Stage \n Deploy application to Azure Web App \n Makes application live \n4. Azure-pipelines.yml File \nThis ﬁle deﬁnes pipeline conﬁguration using YAML. \nBasic Structure \ntrigger: \n- main"
+  },
+  {
+    "chunk_id": 101,
+    "file_name": "devopsnots.pdf",
+    "page": 45,
+    "text": "variables: \n webAppName: MyWebApp \n \nstages: \n- stage: Build \n jobs: \n - job: BuildJob \n pool: \n vmImage: ubuntu-latest \n steps: \n - task: Maven@3 \n inputs: \n mavenPomFile: 'pom.xml' \n goals: 'package' \n \n- stage: Deploy \n dependsOn: Build \n jobs: \n - deployment: DeployWebApp \n environment: production \n strategy: \n runOnce: \n deploy: \n steps: \n - task: AzureWebApp@1 \n inputs: \n appName: $(webAppName) \n package: '$(System.DefaultWorkingDirectory)/**/* .war' \nModiﬁcation of YAML File: \nWe can modify YAML ﬁle based on project needs: \nCommon Modiﬁcations \n1. Change project path \nmavenPomFile: 'MyWebApp/pom.xml' \n2. Change application name \nwebAppName: MyNewApp \n3. Add testing step"
+  },
+  {
+    "chunk_id": 102,
+    "file_name": "devopsnots.pdf",
+    "page": 46,
+    "text": "goals: 'clean test package' \n4. Change deployment package \npackage: '**/* .jar' \n5. Add multiple stages (Dev, Test, Prod) \n Working of Azure Pipeline \n1. Developer commits code to GitHub \n2. Pipeline is triggered automatically \n3. Build stage compiles and tests code \n4. Artifact (WAR/JAR) is created \n5. Deploy stage uploads app to Azure \n6. Application runs on web server \n Advantages of Azure Pipeline \n ✔ Automation of build and deployment \n ✔ Faster delivery of software \n ✔ Easy integration with GitHub \n ✔ Supports multiple platforms \n ✔ Scalable and ﬂexible \n ✔ Real-time monitoring and logs \nDisadvantages of Azure Pipeline \n  Complex setup and conﬁguration \n  Initial learning"
+  },
+  {
+    "chunk_id": 103,
+    "file_name": "devopsnots.pdf",
+    "page": 46,
+    "text": "and logs \nDisadvantages of Azure Pipeline \n  Complex setup and conﬁguration \n  Initial learning curve is high \n  Limited free resources \n  Dependency on internet/cloud \n  Integration issues sometimes \n  Debugging is diƯicult"
+  }
+]

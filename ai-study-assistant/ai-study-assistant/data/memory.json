@@ -1,0 +1,227 @@
+{
+  "topics_studied": [
+    "Devopsnots"
+  ],
+  "quiz_history": [
+    {
+      "topic": "Devopsnots",
+      "score": 3,
+      "total": 5,
+      "percentage": 60.0,
+      "timestamp": "2026-09-08 12:44:51",
+      "weak_areas": [
+        "Devopsnots Study Strategy",
+        "Devopsnots Modern Tools"
+      ]
+    },
+    {
+      "topic": "Devopsnots",
+      "score": 2,
+      "total": 5,
+      "percentage": 40.0,
+      "timestamp": "2026-09-08 12:44:21",
+      "weak_areas": [
+        "Devopsnots Evaluation",
+        "Devopsnots Study Strategy",
+        "Devopsnots Modern Tools"
+      ]
+    },
+    {
+      "topic": "Devopsnots",
+      "score": 0,
+      "total": 5,
+      "percentage": 0.0,
+      "timestamp": "2026-09-08 12:44:07",
+      "weak_areas": [
+        "Devopsnots Fundamentals",
+        "Devopsnots Best Practices",
+        "Devopsnots Evaluation",
+        "Devopsnots Study Strategy",
+        "Devopsnots Modern Tools"
+      ]
+    },
+    {
+      "topic": "Devopsnots",
+      "score": 3,
+      "total": 5,
+      "percentage": 60.0,
+      "timestamp": "2026-09-08 11:14:26",
+      "weak_areas": [
+        "Devopsnots Fundamentals",
+        "Devopsnots Best Practices"
+      ]
+    },
+    {
+      "topic": "Devopsnots",
+      "score": 3,
+      "total": 5,
+      "percentage": 60.0,
+      "timestamp": "2026-09-08 11:14:08",
+      "weak_areas": [
+        "Devopsnots Fundamentals",
+        "Devopsnots Best Practices"
+      ]
+    },
+    {
+      "topic": "Devopsnots",
+      "score": 3,
+      "total": 5,
+      "percentage": 60.0,
+      "timestamp": "2026-09-08 11:14:06",
+      "weak_areas": [
+        "Devopsnots Fundamentals",
+        "Devopsnots Best Practices"
+      ]
+    }
+  ],
+  "weak_topics": [
+    "Devopsnots",
+    "Devopsnots Best Practices",
+    "Devopsnots Evaluation",
+    "Devopsnots Fundamentals",
+    "Devopsnots Modern Tools",
+    "Devopsnots Study Strategy"
+  ],
+  "recent_questions": [
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 12:52:58"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 12:49:30"
+    },
+    {
+      "question": "list the types of  devops",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 12:42:04"
+    },
+    {
+      "question": "list the types of devops",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 12:40:57"
+    },
+    {
+      "question": "give the ai concept in devops",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 12:40:15"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 12:38:50"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 12:37:41"
+    },
+    {
+      "question": "Give me a quiz",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 12:37:12"
+    },
+    {
+      "question": "Give me a quiz",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:16:07"
+    },
+    {
+      "question": "ci cid",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:15:46"
+    },
+    {
+      "question": "hi",
+      "topic": "General Study",
+      "timestamp": "2026-09-08 11:15:22"
+    },
+    {
+      "question": "hi",
+      "topic": "General Study",
+      "timestamp": "2026-09-08 11:15:11"
+    },
+    {
+      "question": "Give me a quiz",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:14:56"
+    },
+    {
+      "question": "Create a study plan",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:14:54"
+    },
+    {
+      "question": "Create a study plan",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:14:51"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:12:41"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:12:03"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:54"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:50"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:43"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:43"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:42"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:42"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:42"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:42"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:41"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:40"
+    },
+    {
+      "question": "What is the main concept discussed in this material?",
+      "topic": "devopsnots",
+      "timestamp": "2026-09-08 11:11:38"
+    }
+  ]
+}
